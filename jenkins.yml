@@ -1,0 +1,5 @@
+name: Deploy Jenkins to OpenShift
+hosts: all
+tasks:
+- import_role:
+    name: siamaksade.openshift_jenkins
