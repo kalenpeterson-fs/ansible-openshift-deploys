@@ -2,4 +2,4 @@
 - name: Deploy Eclipse Che on OpenShift
   hosts: all
   roles:
-    - siamaksade.openshift_che
+    - siamaksade.openshift_eclipse_che
